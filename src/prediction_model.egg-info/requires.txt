@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+pytest
+scipy
+setuptools
+wheel
+fastapi[all]
+uvicorn
+pydantic
+gunicorn
+requests

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: prediction_model
+Version: 1.0.1
+Summary: Package for the prediction model
+Home-page: https://github.com/sadhiin/
+Author: Sadhin
+Author-email: sadhin.aiub.cse@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pytest
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: fastapi[all]
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: gunicorn
+Requires-Dist: requests
+
+Package for the prediction model
