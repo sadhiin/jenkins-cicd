@@ -40,7 +40,7 @@ class LoanPrediction(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Loan Prediction API using CI/CD Jenkins in EC2 [Version 0.2]"}
+    return {"message": "Welcome to the Loan Prediction API using CI/CD Jenkins in EC2 [Version 2.0]"}
 
 @app.post("/predict")
 def predict(loan_data: LoanPrediction):
