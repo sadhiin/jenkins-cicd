@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from prediction_model.predict import generate_prediction
 
 app = FastAPI(
-    title="Loan Prediction API using CI/CD Jenkins",
+    title="Loan Prediction API using CI/CD Jenkins project.",
     description="API for Loan Prediction",
     version="0.2",
 )
