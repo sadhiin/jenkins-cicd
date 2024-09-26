@@ -9,7 +9,7 @@ from prediction_model.predict import generate_prediction
 app = FastAPI(
     title="Loan Prediction API using CI/CD Jenkins",
     description="API for Loan Prediction",
-    version="0.1",
+    version="0.2",
 )
 
 origins = [
@@ -40,7 +40,7 @@ class LoanPrediction(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the Loan Prediction API using CI/CD Jenkins"}
+    return {"message": "Welcome to the Loan Prediction API using CI/CD Jenkins in EC2 [Version 0.2]"}
 
 @app.post("/predict")
 def predict(loan_data: LoanPrediction):
